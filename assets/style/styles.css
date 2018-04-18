@@ -2,7 +2,7 @@
     outline: 2px solid red;
 } */
 .blue-background{
-    background: lightblue;
+    background: linear-gradient(to right, rgb(202, 239, 252), lightblue);
 }
 .no-background{
     background: none;
@@ -11,12 +11,23 @@
     color: white;
 }
 .background-gray{
-    background: rgb(223, 223, 223);
+    background: linear-gradient(to right, rgb(187, 187, 187), rgb(177, 177, 177));
 }
 .no-space{
     margin: 0;
     padding: 0;
 }
-/* .row-spacing{
-    padding: 5vh 0vh;
-} */
+.dark-backgound{
+    background: rgb(65, 64, 64);
+    color: lightgrey;
+}
+.full-height{
+    height: 100vh;
+}
+.more-height{
+    height: 40vh;
+
+}
+.hover-card:hover{
+background: white;
+}
